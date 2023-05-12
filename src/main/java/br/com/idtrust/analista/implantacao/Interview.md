@@ -12,6 +12,7 @@
 	- todos os outros, escrever ADULTO;
 
 Lista de valores para o teste: sexo;idade
+	
 	a) masculino;74
 	b) feminino;4
 	c) feminino;13
@@ -36,8 +37,8 @@ for (contador <= 10 ) {
 print(“O valor da soma é ” + soma)
 ```
 
-a) O valor da soma é 57
-b) O valor da soma é 69
-c) O valor da soma é 79
-d) O valor da soma é 93
+	a) O valor da soma é 57
+	b) O valor da soma é 69
+	c) O valor da soma é 79
+	d) O valor da soma é 93
 
