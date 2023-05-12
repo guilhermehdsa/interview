@@ -30,7 +30,7 @@ for (contador <= 10 ) {
 	if (contador < 5 || contador == 8 ) {
 		soma := soma - contador
     } else {
-            soma = soma + count
+            soma = soma + contador
     }
 	contador++
 } 
