@@ -19,6 +19,21 @@ Lista de valores para o teste: sexo;idade
 	d) masculino;60
 	e) masculino;19
 	f) feminino;60
+	
+	String sexo = "feminino";
+        Integer idade = 60;
+
+        if (sexo == "masculino" && idade >= 65) {
+               System.out.println("APOSENTADO");
+        } else if (sexo == "feminino" && idade >= 60) {
+               System.out.println("APOSENTADA");
+        } else if (idade >= 13 && idade <= 18) {
+               System.out.println("ADOLESCENTE");
+        } else if (idade < 13) {
+               System.out.println("CRIANÇAS");
+        } else {
+               System.out.println("ADULTO");
+        }
 
 ---
 
@@ -39,6 +54,6 @@ print(“O valor da soma é ” + soma)
 
 	a) O valor da soma é 57
 	b) O valor da soma é 69
-	c) O valor da soma é 79
+	c) O valor da soma é 79 xx
 	d) O valor da soma é 93
 
